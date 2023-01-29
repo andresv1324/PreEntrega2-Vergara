@@ -36,7 +36,10 @@ font-size: 1.0em;
 nav{
     padding: 0px !important;
 }
-
+li a:hover{
+    background-color: rgb(67, 71, 155);
+    color:  white;
+}
 .nav-link{
     padding: 0em;
 }
@@ -94,5 +97,45 @@ nav{
     .redes-img{
         width: 45px;
         height: 40px;
+    }
+
+    /* Estilos Giras */
+
+    /* Lista de giras */
+
+    .lista{ 
+        padding: 1em;
+        color: black;
+
+    }
+    
+    .lista div{
+        padding: 0.2em;
+    }
+
+    .menu-tour{
+        background-color: #313a59da;
+        margin-bottom: 0.6em;
+        
+    }
+
+    .menu-completo{
+        text-align: end;
+    }
+    
+    .menu-completo :hover{
+        background-color: #252d4bda;
+    }
+
+    .menu-tour div p, .menu-tour p{
+        margin: 2px;
+    }
+
+    .ubicacion-gps, .img-espacio, .fecha-lugar, .patrocinio{
+        display: none;
+    }
+
+    button{
+        background-color: #4a5477;
     }
 }

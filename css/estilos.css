@@ -139,3 +139,10 @@ li a:hover{
         background-color: #4a5477;
     }
 }
+
+@media screen and (min-width:1024px){
+    body{
+        background-color: aqua;
+    }
+
+}

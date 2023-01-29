@@ -36,10 +36,7 @@ font-size: 1.0em;
 nav{
     padding: 0px !important;
 }
-li a:hover{
-    background-color: rgb(67, 71, 155);
-    color:  white;
-}
+
 .nav-link{
     padding: 0em;
 }
@@ -123,10 +120,6 @@ li a:hover{
         text-align: end;
     }
     
-    .menu-completo :hover{
-        background-color: #252d4bda;
-    }
-
     .menu-tour div p, .menu-tour p{
         margin: 2px;
     }
@@ -144,5 +137,13 @@ li a:hover{
     body{
         background-color: aqua;
     }
-
+    /* Menu hover */
+    header nav ul li:hover{
+        background-color: #7074a3;
+        box-shadow: 2px 2px 2px;
+        transform: scale(0.9);
+    }
+    
+    /* Cuerpo */
+    
 }

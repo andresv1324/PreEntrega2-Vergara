@@ -1,0 +1,53 @@
+/* Estilos generales */
+body{
+    background: #989bcc;
+}
+
+/* Estilos del menu  */
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 2em;
+}
+
+header nav ul li{
+    background-color: #797eb9;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.menu{
+    height: 70px;
+}
+
+header{
+    color: black;
+}
+
+h1{
+font-size: 1.5em;
+}
+
+nav{
+    padding: 0px !important;
+}
+
+.nav-link{
+    padding: 0em;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(49, 58, 89, 1) !important;
+}
+
+.border-success {
+    --bs-border-opacity: 1;
+    border-color:rgb(77, 83, 197) !important;
+}
+
+.paginas{
+    justify-content: end;
+}

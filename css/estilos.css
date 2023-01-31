@@ -194,4 +194,45 @@ nav{
         grid-area: footer;
     }
 
+    /* estilos giras */
+
+    .menu-fecha{
+        display: flex;
+        width: 500px;
+        justify-content: space-evenly;
+        
+    }
+
+    .menu-tour div p, .menu-info div p{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .ubicacion-gps, .img-espacio, .patrocinio{
+        display:inline-block;
+    }
+
+    .menu-info{
+        display:flex;
+        justify-content: space-around;
+        border-top: 3px solid black;
+
+    }
+
+    .ubicacion-gps{
+        width: 19em;
+        height: 18em;
+        margin-top: 0.8em;
+    }
+
+    .img-espacio{
+        width: 18em;
+        height: 18em;
+        margin-top: 0.8em;
+    }
+
+    .boton-compra:hover{
+        background-color: #989bcc;
+        transform: scale(0.9);
+    }
 }
